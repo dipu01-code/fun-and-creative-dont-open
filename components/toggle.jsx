@@ -7,8 +7,8 @@ function Toogle() {
     }
     return (
         <div>
-            <h1>{toogle ? "baag teri" : "maki chut"}</h1>
-            <button type='button' onClick={toogleFunction}>Maat daba laude</button>
+            <h1>{toogle ? "Hello" : "GoodBye"}</h1>
+            <button type='button' onClick={toogleFunction}>{toogle ? "Click Me" : "Nice to Meet you"}</button>
         </div>
     )
 }

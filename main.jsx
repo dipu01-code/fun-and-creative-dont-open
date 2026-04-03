@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Toogle from './components/toggle';
 import Counter from './components/newCounter'
 import ArrayList from './components/array';
-
+import ScoreBoard from './components/ScoreBoard';
 function App() {
     const [count, setCount] = useState(0)
     const addFunction = () => {
