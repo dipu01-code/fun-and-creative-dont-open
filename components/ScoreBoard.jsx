@@ -1,5 +1,5 @@
 import react from 'react';
-function ScoreBoard(){
+export default function ScoreBoard(){
     const [score, setscore] = useState(0)
     return (
         <div>
